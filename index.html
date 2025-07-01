@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidad - YoDream App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="language-selector">
+                <button onclick="switchLanguage('es')" id="btn-es" class="lang-btn active">Español</button>
+                <button onclick="switchLanguage('en')" id="btn-en" class="lang-btn">English</button>
+            </div>
+            <h1 id="title-es">Política de Privacidad</h1>
+            <h1 id="title-en" style="display: none;">Privacy Policy</h1>
+            <p class="app-name" id="app-name-es">YoDream - Registro de Sueños</p>
+            <p class="app-name" id="app-name-en" style="display: none;">YoDream - Dream Journal</p>
+        </header>
+
+        <main>
+            <!-- CONTENIDO EN ESPAÑOL -->
+            <section class="privacy-content" id="content-es">
+                <div class="last-updated">
+                    <p><strong>Última actualización:</strong> Diciembre 2024</p>
+                </div>
+
+                <h2>1. Información que Recopilamos</h2>
+                <p>YoDream recopila únicamente la información necesaria para proporcionar el servicio de registro e interpretación de sueños:</p>
+                <ul>
+                    <li><strong>Registros de sueños:</strong> Descripciones de texto, fechas y categorías que el usuario ingresa voluntariamente</li>
+                    <li><strong>Datos de uso:</strong> Información básica sobre cómo se utiliza la aplicación para mejorar la experiencia</li>
+                    <li><strong>Información del dispositivo:</strong> Datos técnicos básicos necesarios para el funcionamiento de la app</li>
+                </ul>
+
+                <h2>2. Cómo Utilizamos tu Información</h2>
+                <p>La información recopilada se utiliza exclusivamente para:</p>
+                <ul>
+                    <li>Proporcionar y mantener el servicio de registro de sueños</li>
+                    <li><strong>Interpretar sueños:</strong> Las descripciones de sueños se envían a Google Gemini API para generar interpretaciones automáticas</li>
+                    <li><strong>Generar imágenes:</strong> Las descripciones de sueños se envían a Stability AI para crear representaciones visuales de los sueños</li>
+                    <li>Mejorar la funcionalidad y experiencia de usuario de la aplicación</li>
+                    <li>Generar estadísticas personales sobre patrones de sueño</li>
+                    <li>Proporcionar soporte técnico cuando sea necesario</li>
+                </ul>
+
+                <h2>3. Almacenamiento y Seguridad de Datos</h2>
+                <p>Nos comprometemos a proteger tu información:</p>
+                <ul>
+                    <li><strong>Almacenamiento local:</strong> Todos los datos se guardan en una base de datos local en tu dispositivo</li>
+                    <li><strong>Procesamiento externo:</strong> Las descripciones de sueños se envían temporalmente a Google Gemini API para interpretación y a Stability AI para generación de imágenes</li>
+                    <li>Implementamos medidas de seguridad técnicas y organizativas apropiadas</li>
+                    <li>Las comunicaciones con APIs externas utilizan cifrado HTTPS</li>
+                    <li>No almacenamos tus datos en servidores externos de forma permanente</li>
+                </ul>
+
+                <h2>4. Compartir Información con Terceros</h2>
+                <p>YoDream comparte información limitada únicamente en los siguientes casos:</p>
+                <ul>
+                    <li><strong>Google Gemini API:</strong> Las descripciones de sueños se envían a Google para interpretación automática (sujeto a las políticas de privacidad de Google)</li>
+                    <li><strong>Stability AI:</strong> Las descripciones de sueños se envían a Stability AI para generar imágenes representativas (sujeto a las políticas de privacidad de Stability AI)</li>
+                    <li>Cuando sea requerido por ley o por autoridades competentes</li>
+                    <li>Para proteger nuestros derechos legales o la seguridad de los usuarios</li>
+                </ul>
+                <p><strong>Importante:</strong> NO vendemos, alquilamos ni compartimos tu información personal con fines comerciales.</p>
+
+                <h2>5. Tus Derechos</h2>
+                <p>Como usuario, tienes derecho a:</p>
+                <ul>
+                    <li><strong>Acceso:</strong> Solicitar una copia de tus datos personales</li>
+                    <li><strong>Rectificación:</strong> Corregir datos inexactos o incompletos</li>
+                    <li><strong>Eliminación:</strong> Solicitar la eliminación de tus datos personales</li>
+                    <li><strong>Portabilidad:</strong> Recibir tus datos en un formato estructurado</li>
+                    <li><strong>Oposición:</strong> Oponerte al procesamiento de tus datos en ciertas circunstancias</li>
+                </ul>
+
+                <h2>6. Retención de Datos</h2>
+                <p>Conservamos tu información personal solo durante el tiempo necesario para los fines descritos en esta política. Los registros de sueños se mantienen mientras mantengas tu cuenta activa o según lo requieras para el servicio.</p>
+
+                <h2>7. Menores de Edad</h2>
+                <p>YoDream no está dirigida a menores de 13 años. No recopilamos conscientemente información personal de niños menores de 13 años. Si descubrimos que hemos recopilado información de un menor de 13 años, la eliminaremos inmediatamente.</p>
+
+                <h2>8. Uso de Google Gemini API</h2>
+                <p>Para proporcionar interpretaciones de sueños, utilizamos Google Gemini API:</p>
+                <ul>
+                    <li><strong>Datos enviados:</strong> Solo las descripciones de texto de tus sueños</li>
+                    <li><strong>Propósito:</strong> Generar interpretaciones automáticas basadas en IA</li>
+                    <li><strong>Retención:</strong> Google puede procesar temporalmente estos datos según sus políticas</li>
+                    <li><strong>Privacidad:</strong> Consulta la <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidad de Google</a> para más detalles</li>
+                    <li><strong>Control:</strong> Puedes optar por no usar la función de interpretación en cualquier momento</li>
+                </ul>
+
+                <h2>9. Uso de Stability AI</h2>
+                <p>Para generar imágenes representativas de tus sueños, utilizamos Stability AI:</p>
+                <ul>
+                    <li><strong>Datos enviados:</strong> Solo las descripciones de texto de tus sueños</li>
+                    <li><strong>Propósito:</strong> Crear imágenes visuales que representen el contenido de tus sueños</li>
+                    <li><strong>Retención:</strong> Stability AI puede procesar temporalmente estos datos según sus políticas</li>
+                    <li><strong>Privacidad:</strong> Consulta la <a href="https://stability.ai/privacy-policy" target="_blank">Política de Privacidad de Stability AI</a> para más detalles</li>
+                    <li><strong>Control:</strong> Puedes optar por no usar la función de generación de imágenes en cualquier momento</li>
+                </ul>
+
+                <h2>10. Cambios en esta Política</h2>
+                <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Te notificaremos sobre cambios significativos publicando la nueva política en esta página y actualizando la fecha de "última actualización".</p>
+
+                <h2>11. Contacto</h2>
+                <p>Si tienes preguntas sobre esta Política de Privacidad o sobre el manejo de tus datos personales, puedes contactarnos en:</p>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> adgsoft1@gmail.com</p>
+                    <p><strong>Desarrollador:</strong> ADGSoft</p>
+                </div>
+
+                <div class="note">
+                    <p><em>Esta política de privacidad cumple con las regulaciones de protección de datos aplicables, incluyendo GDPR y normativas locales de privacidad.</em></p>
+                </div>
+            </section>
+
+            <!-- CONTENIDO EN INGLÉS -->
+            <section class="privacy-content" id="content-en" style="display: none;">
+                <div class="last-updated">
+                    <p><strong>Last updated:</strong> December 2024</p>
+                </div>
+
+                <h2>1. Information We Collect</h2>
+                <p>YoDream collects only the information necessary to provide the dream journal and interpretation service:</p>
+                <ul>
+                    <li><strong>Dream records:</strong> Text descriptions, dates, and categories that users voluntarily enter</li>
+                    <li><strong>Usage data:</strong> Basic information about how the application is used to improve the experience</li>
+                    <li><strong>Device information:</strong> Basic technical data necessary for the app's functionality</li>
+                </ul>
+
+                <h2>2. How We Use Your Information</h2>
+                <p>The collected information is used exclusively to:</p>
+                <ul>
+                    <li>Provide and maintain the dream journal service</li>
+                    <li><strong>Dream interpretation:</strong> Dream descriptions are sent to Google Gemini API to generate automatic interpretations</li>
+                    <li><strong>Image generation:</strong> Dream descriptions are sent to Stability AI to create visual representations of dreams</li>
+                    <li>Improve the functionality and user experience of the application</li>
+                    <li>Generate personal statistics about sleep patterns</li>
+                    <li>Provide technical support when necessary</li>
+                </ul>
+
+                <h2>3. Data Storage and Security</h2>
+                <p>We are committed to protecting your information:</p>
+                <ul>
+                    <li><strong>Local storage:</strong> All data is saved in a local database on your device</li>
+                    <li><strong>External processing:</strong> Dream descriptions are temporarily sent to Google Gemini API for interpretation and to Stability AI for image generation</li>
+                    <li>We implement appropriate technical and organizational security measures</li>
+                    <li>Communications with external APIs use HTTPS encryption</li>
+                    <li>We do not permanently store your data on external servers</li>
+                </ul>
+
+                <h2>4. Information Sharing with Third Parties</h2>
+                <p>YoDream shares limited information only in the following cases:</p>
+                <ul>
+                    <li><strong>Google Gemini API:</strong> Dream descriptions are sent to Google for automatic interpretation (subject to Google's privacy policies)</li>
+                    <li><strong>Stability AI:</strong> Dream descriptions are sent to Stability AI to generate representative images (subject to Stability AI's privacy policies)</li>
+                    <li>When required by law or by competent authorities</li>
+                    <li>To protect our legal rights or user safety</li>
+                </ul>
+                <p><strong>Important:</strong> We do NOT sell, rent, or share your personal information for commercial purposes.</p>
+
+                <h2>5. Your Rights</h2>
+                <p>As a user, you have the right to:</p>
+                <ul>
+                    <li><strong>Access:</strong> Request a copy of your personal data</li>
+                    <li><strong>Rectification:</strong> Correct inaccurate or incomplete data</li>
+                    <li><strong>Deletion:</strong> Request deletion of your personal data</li>
+                    <li><strong>Portability:</strong> Receive your data in a structured format</li>
+                    <li><strong>Opposition:</strong> Object to the processing of your data in certain circumstances</li>
+                </ul>
+
+                <h2>6. Data Retention</h2>
+                <p>We retain your personal information only for as long as necessary for the purposes described in this policy. Dream records are kept while you maintain your account active or as required for the service.</p>
+
+                <h2>7. Minors</h2>
+                <p>YoDream is not directed at children under 13 years of age. We do not knowingly collect personal information from children under 13. If we discover that we have collected information from a child under 13, we will delete it immediately.</p>
+
+                <h2>8. Use of Google Gemini API</h2>
+                <p>To provide dream interpretations, we use Google Gemini API:</p>
+                <ul>
+                    <li><strong>Data sent:</strong> Only the text descriptions of your dreams</li>
+                    <li><strong>Purpose:</strong> Generate automatic AI-based interpretations</li>
+                    <li><strong>Retention:</strong> Google may temporarily process this data according to their policies</li>
+                    <li><strong>Privacy:</strong> Please refer to <a href="https://policies.google.com/privacy" target="_blank">Google's Privacy Policy</a> for more details</li>
+                    <li><strong>Control:</strong> You can opt out of using the interpretation feature at any time</li>
+                </ul>
+
+                <h2>9. Use of Stability AI</h2>
+                <p>To generate visual representations of your dreams, we use Stability AI:</p>
+                <ul>
+                    <li><strong>Data sent:</strong> Only the text descriptions of your dreams</li>
+                    <li><strong>Purpose:</strong> Create visual images that represent the content of your dreams</li>
+                    <li><strong>Retention:</strong> Stability AI may temporarily process this data according to their policies</li>
+                    <li><strong>Privacy:</strong> Please refer to <a href="https://stability.ai/privacy-policy" target="_blank">Stability AI's Privacy Policy</a> for more details</li>
+                    <li><strong>Control:</strong> You can opt out of using the image generation feature at any time</li>
+                </ul>
+
+                <h2>10. Changes to This Policy</h2>
+                <p>We may update this Privacy Policy occasionally. We will notify you of significant changes by posting the new policy on this page and updating the "last updated" date.</p>
+
+                <h2>11. Contact</h2>
+                <p>If you have questions about this Privacy Policy or about the handling of your personal data, you can contact us at:</p>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> adgsoft1@gmail.com</p>
+                    <p><strong>Developer:</strong> ADGSoft</p>
+                </div>
+
+                <div class="note">
+                    <p><em>This privacy policy complies with applicable data protection regulations, including GDPR and local privacy regulations.</em></p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p id="footer-es">&copy; 2024 YoDream App. Todos los derechos reservados.</p>
+            <p id="footer-en" style="display: none;">&copy; 2024 YoDream App. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function switchLanguage(lang) {
+            // Ocultar todos los elementos
+            const elementsToHide = [
+                'title-es', 'title-en', 'app-name-es', 'app-name-en',
+                'content-es', 'content-en', 'footer-es', 'footer-en'
+            ];
+            
+            elementsToHide.forEach(id => {
+                const element = document.getElementById(id);
+                if (element) element.style.display = 'none';
+            });
+            
+            // Mostrar elementos del idioma seleccionado
+            if (lang === 'es') {
+                document.getElementById('title-es').style.display = 'block';
+                document.getElementById('app-name-es').style.display = 'block';
+                document.getElementById('content-es').style.display = 'block';
+                document.getElementById('footer-es').style.display = 'block';
+                document.getElementById('btn-es').classList.add('active');
+                document.getElementById('btn-en').classList.remove('active');
+                document.documentElement.lang = 'es';
+                document.title = 'Política de Privacidad - YoDream App';
+            } else {
+                document.getElementById('title-en').style.display = 'block';
+                document.getElementById('app-name-en').style.display = 'block';
+                document.getElementById('content-en').style.display = 'block';
+                document.getElementById('footer-en').style.display = 'block';
+                document.getElementById('btn-en').classList.add('active');
+                document.getElementById('btn-es').classList.remove('active');
+                document.documentElement.lang = 'en';
+                document.title = 'Privacy Policy - YoDream App';
+            }
+        }
+    </script>
+</body>
+</html>
